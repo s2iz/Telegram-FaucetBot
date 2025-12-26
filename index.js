@@ -1,6 +1,3 @@
-// Telegram Faucet Bot - Complete System
-// Install: npm install node-telegram-bot-api
-
 import TelegramBot from 'node-telegram-bot-api';
 import fs from 'fs';
 import path from 'path';
@@ -1493,11 +1490,3 @@ bot.on('polling_error', (error) => {
 
 // Load data on start
 loadData();
-
-console.log('┏━━━━━━━━━┫Telegram-FaucetBot┣━━━━━━━━┓');
-console.log('┃                                     ┃');
-console.log('┃    Telegram Faucet Bot Started!!    ┃');
-console.log('┃    Earn Free Crypto Daily System    ┃');
-console.log('┃    User (/start) - Admin (/admin)   ┃');
-console.log('┃                                     ┃');
-console.log('┗━━━━━━━━━━━━━━━┫@s2iz┣━━━━━━━━━━━━━━━┛');
