@@ -1490,3 +1490,11 @@ bot.on('polling_error', (error) => {
 
 // Load data on start
 loadData();
+console.log('┏━━━━━━━━━┫Telegram-FaucetBot┣━━━━━━━━┓');
+console.log('┃                                     ┃');
+console.log('┃    Telegram Faucet Bot Started!!    ┃');
+console.log('┃    Earn Free Crypto Daily System    ┃');
+console.log('┃    User (/start) - Admin (/admin)   ┃');
+console.log('┃                                     ┃');
+console.log('┗━━━━━━━━━━━━━━━┫@s2iz┣━━━━━━━━━━━━━━━┛');
+
