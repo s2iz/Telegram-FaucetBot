@@ -8,8 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Configuration
-const BOT_TOKEN = '6728150395:AAG8FtHRKdwlbFT00X8gEXM9ZZeWcegsoRs';
-const ADMIN_IDS = [6324455737];
+const BOT_TOKEN = 'Your Bot Token';
+const ADMIN_IDS = [ADMIN_ID,ADMIN_ID];
 const BACKUP_INTERVAL = 3600000; // Backup every 1 hour
 const DATA_FILE = path.join(__dirname, 'bot_data.json');
 
@@ -1497,4 +1497,5 @@ console.log('┃    Earn Free Crypto Daily System    ┃');
 console.log('┃    User (/start) - Admin (/admin)   ┃');
 console.log('┃                                     ┃');
 console.log('┗━━━━━━━━━━━━━━━┫@s2iz┣━━━━━━━━━━━━━━━┛');
+
 
