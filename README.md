@@ -37,6 +37,17 @@ Here are some of the bot's best features:
 | `/unban id` | Unban a user | Admin |
 | `/removechannel @oSHOWo` | Remove required channel | Admin |
 
+## Project Structure
+
+```
+Telegram-FaucetBot/
+├── assests/
+│   └── FaucetBot.png      # Project image
+├── index.js      #  Bot index file
+├── bot_data.json      # Bot data file
+└── READNE.md      # Project ReadMe file
+```
+
 ## ⚙️ Configuration
 
 The bot is configured through the `index.js` file:
